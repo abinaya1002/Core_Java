@@ -1,4 +1,5 @@
-package com.tnsif.dayfifteen.uderdefinedobjects.comparableandcomparator;
+package com.tnsif.dayfifteen.userdefinedobjects.comparableandcomparator;
+
 import java.util.Comparator;
 
 public class Person {

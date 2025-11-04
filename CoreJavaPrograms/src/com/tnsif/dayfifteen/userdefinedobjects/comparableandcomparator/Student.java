@@ -1,4 +1,5 @@
-package com.tnsif.dayfifteen.uderdefinedobjects.comparableandcomparator;
+package com.tnsif.dayfifteen.userdefinedobjects.comparableandcomparator;
+
 public class Student implements Comparable<Student> 
 {
 	private int rollNo;

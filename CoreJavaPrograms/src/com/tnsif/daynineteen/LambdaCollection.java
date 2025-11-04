@@ -1,4 +1,5 @@
-package com.tnsif.dayfifteen.uderdefinedobjects;
+package com.tnsif.daynineteen;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -12,6 +13,7 @@ public class LambdaCollection {
 		list.add(70);
 		list.add(20);
 		list.add(50);
+		
 		// Traversing using foreach
 		for (Integer element : list) {
 			System.out.println(element);
@@ -20,6 +22,10 @@ public class LambdaCollection {
 		// Traversing using lambda expression
 		System.out.println("Traversing using lambda expression");
 		list.forEach(element -> System.out.println(element));
+		
+		//Traversing using Method Reference 
+		System.out.println("Traversing using Method Reference");
+		list.forEach(System.out::println);
 
 		System.out.println("Original List "+list);
 		
@@ -46,7 +52,7 @@ public class LambdaCollection {
 		studentList.add(s1);
 		System.out.println(studentList);
 
-		// Collections.sort(studentList); //CTE
+		//Collections.sort(studentList); //CTE
 		System.out.println("------------------------------------------");
 				
 		Comparator<Student> comp1 = (st1, st2) -> (int)(st1.getPer() - st2.getPer());

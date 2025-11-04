@@ -1,4 +1,5 @@
-package com.tnsif.dayfifteen.uderdefinedobjects;
+package com.tnsif.daynineteen;
+
 public class Student {
 	private int rollNo;
 	private String name;
